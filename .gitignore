@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Docker-102-Zero
+/.vs
 /packages
 **/website/bin
 **/website/obj/Debug
