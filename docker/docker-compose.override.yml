@@ -1,0 +1,27 @@
+version: "2.4"
+
+services:
+  traefik:
+    volumes:
+      - ${LOCAL_DATA_PATH}/traefik:C:/etc/traefik
+
+  mssql:
+    mem_limit: 2GB
+    volumes:
+      - ${LOCAL_DATA_PATH}\mssql:c:\data
+
+  # Mount our Solr data folder
+  solr:
+    volumes:
+      - ${LOCAL_DATA_PATH}\solr:c:\data
+
+  cd:
+    volumes:
+      - ${LOCAL_DEPLOY_PATH}\website:c:/deploy
+      - ${LOCAL_DATA_PATH}\cd:c:/inetpub/wwwroot/App_Data/logs
+
+  cm:
+    volumes:
+      - ${LOCAL_DEPLOY_PATH}\website:C:/deploy
+      - ${LOCAL_DATA_PATH}\cm:c:/inetpub/wwwroot/App_Data/logs
+  

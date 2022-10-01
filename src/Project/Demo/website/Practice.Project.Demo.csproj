@@ -88,6 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\Debug.pubxml.user" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Demo\Layout.cshtml" />
+    <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Views\web.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
