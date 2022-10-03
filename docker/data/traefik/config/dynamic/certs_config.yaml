@@ -1,0 +1,8 @@
+tls:
+  certificates:
+    - certFile: C:\etc\traefik\certs\cd.practicedemo.local.crt
+      keyFile: C:\etc\traefik\certs\cd.practicedemo.local.key
+    - certFile: C:\etc\traefik\certs\cm.practicedemo.local.crt
+      keyFile: C:\etc\traefik\certs\cm.practicedemo.local.key
+    - certFile: C:\etc\traefik\certs\id.practicedemo.local.crt
+      keyFile: C:\etc\traefik\certs\id.practicedemo.local.key

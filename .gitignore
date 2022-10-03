@@ -12,14 +12,22 @@
 # Docker Data and Deploy folders
 docker/data/cd/*
 !docker/data/cd/.gitkeep
+
 docker/data/cm/*
 !docker/data/cm/.gitkeep
+
 docker/data/solr/*
 !docker/data/solr/.gitkeep
+
 docker/data/mssql/*
 !docker/data/mssql/.gitkeep
-docker/data/traefik/*
-!docker/data/traefik/.gitkeep
+
+docker/data/traefik/**/*.crt
+docker/data/traefik/**/*.key
+docker/data/traefik/**/readme
+#!docker/data/traefik/.gitkeep
+#!docker/data/traefik/certs/.gitkeep
+#!docker/traefik/config/dynamic/certs_config.yaml
+
 docker/deploy/website/*
 !docker/deploy/website/.gitkeep
-
