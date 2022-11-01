@@ -22,12 +22,14 @@ docker/data/solr/*
 docker/data/mssql/*
 !docker/data/mssql/.gitkeep
 
-docker/data/traefik/**/*.crt
-docker/data/traefik/**/*.key
-docker/data/traefik/**/readme
+docker/traefik/**/*.crt
+docker/traefik/**/*.key
+docker/traefik/**/readme
 #!docker/data/traefik/.gitkeep
 #!docker/data/traefik/certs/.gitkeep
 #!docker/traefik/config/dynamic/certs_config.yaml
 
 docker/deploy/website/*
 !docker/deploy/website/.gitkeep
+
+.sitecore/package-cache
