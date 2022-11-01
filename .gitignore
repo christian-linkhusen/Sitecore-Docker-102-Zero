@@ -22,6 +22,10 @@ docker/data/solr/*
 docker/data/mssql/*
 !docker/data/mssql/.gitkeep
 
+docker/deploy/website/*
+!docker/deploy/website/.gitkeep
+
+
 docker/traefik/**/*.crt
 docker/traefik/**/*.key
 docker/traefik/**/readme
