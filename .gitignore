@@ -25,9 +25,9 @@ docker/data/mssql/*
 docker/traefik/**/*.crt
 docker/traefik/**/*.key
 docker/traefik/**/readme
-#!docker/data/traefik/.gitkeep
-#!docker/data/traefik/certs/.gitkeep
-#!docker/traefik/config/dynamic/certs_config.yaml
+!docker/traefik/.gitkeep
+!docker/traefik/certs/.gitkeep
+!docker/traefik/config/dynamic/certs_config.yaml
 
 docker/deploy/website/*
 !docker/deploy/website/.gitkeep
