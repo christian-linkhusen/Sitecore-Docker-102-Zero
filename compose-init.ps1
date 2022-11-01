@@ -52,7 +52,7 @@ Param (
     $SitecoreGalleryRepositoryLocation = "https://sitecore.myget.org/F/sc-powershell/api/v2",
     
     [string]
-    $CertDataFolder = ".\data\traefik\certs",
+    $CertDataFolder = ".\traefik\certs",
     
     [string]
     $SpecificVersion

@@ -1,0 +1,14 @@
+{
+  "endpoints": {
+    "default": {
+      "allowWrite": true,
+      "host": "https://cm.practicedemo.local/",
+      "authority": "https://id.practicedemo.local/",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkU4RjRGQTQxMTczMDI5RDRBNUMyQTgwREU4RTVBNkZFQkZGOTE1MzFSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IjZQVDZRUmN3S2RTbHdxZ042T1dtX3JfNUZURSJ9.eyJuYmYiOjE2NjcyOTM1ODEsImV4cCI6MTY2NzI5NzE4MSwiaXNzIjoiaHR0cHM6Ly9pZC5wcmFjdGljZWRlbW8ubG9jYWwiLCJhdWQiOlsic2l0ZWNvcmUucHJvZmlsZS5hcGkiLCJodHRwczovL2lkLnByYWN0aWNlZGVtby5sb2NhbC9yZXNvdXJjZXMiXSwiY2xpZW50X2lkIjoiRGV2aWNlIiwic3ViIjoiYzQzYTUxN2U5MTgyNGZlNGI0YTYwZTFmMTNjNGYxNTUiLCJhdXRoX3RpbWUiOjE2NjcyOTM1NzAsImlkcCI6ImxvY2FsIiwibmFtZSI6InNpdGVjb3JlXFxBZG1pbiIsImVtYWlsIjoiIiwiaHR0cDovL3d3dy5zaXRlY29yZS5uZXQvaWRlbnRpdHkvY2xhaW1zL2lzQWRtaW4iOiJUcnVlIiwianRpIjoiNEY2Rjg1NzQ1M0JFRTQzMTRBMUEzNDYzMzZCQTlEN0IiLCJzaWQiOiJEMUMwMjJDOUVEMUI5RjgxMDRDQjZEQzJFREFGRTIzQiIsImlhdCI6MTY2NzI5MzU4MSwic2NvcGUiOlsic2l0ZWNvcmUucHJvZmlsZS5hcGkiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.z2S6_nGm_EGK-C8FRFuvQXTWkGDXxWyNNwDvJ8TfH3BjQN93uQUjDOGN5TNY2bqQiX2-ZU7C3B7zTyDBEVjGR69kZ_SHZPYGsYk2nNiqhnosy5l52sFGxnlIrNsOaRicpFpCFAlCP-6lg4C6uMb3IN4PNOwtAsdgu6dbV43P6662ACUjgwU9xS6BDryLfaImJetRHmIKvJI7cYp-qm6N6E5M3yxNmIGjd9s9djRoSKWSQ9aKYTmHKugqdwxcGLPl8RxGDS7pC0txS2TSSZ5M9o0kmRxMouG80_7w2AYevtnkxhEw2UIBqYG-UKxVda6cQ7IpX_Sk9D3o8gZA_a_5Fw",
+      "refreshToken": "45C7CA6344BCB6074AA7FC112055E438EE842775073DFB949CA8804B3E541EA9",
+      "clientId": "Device",
+      "variables": {}
+    }
+  },
+  "$schema": "./schemas/UserConfiguration.schema.json"
+}
